@@ -1,4 +1,4 @@
-#fibbonachi sequence
+#fibbonachi sequence, 0 and 1 are constants
 import math
 seq = int(input("select how long you want the fibonacci seq to be: "))
 
@@ -10,7 +10,7 @@ def fib(n):
     return x
 
 
-print(f"{fib(seq)})")
+print(f"{fib(seq)}")
 
 
 
